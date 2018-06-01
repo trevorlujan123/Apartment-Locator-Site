@@ -97,7 +97,7 @@
                   I offer un-paralleled expiertise to each and every clinet
                 </li>
                 <li>
-                  I am a Licensed Real Estate Agent that works under the Apartments Today brand
+                  I am a Licensed Real Estate Agent that works under the Apartment Quest brand
                 </li>
               </ul>
               <a href="#contact">Contact me</a>
@@ -154,18 +154,79 @@
        </section>
 
        <section id="contact">
-         <form id="contact-form" method="POST" action="mailto:trevorlujan1234@gmail.com">
-            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-            <br>
-            <input type="text" name="email" class="form-control" placeholder="Your Email" required>
-            <br>
-            <textarea type="text" name="message" class="form-control" placeholder="Your message" required></textarea><br>
-            <input type="submit" class="form-control" name="" value="SEND Message">
-            <br>
-         </form>
-       </section>
+         <div class="container">
+           <div class="row">
+             <h1 class="col-sm-12">Contact me</h1>
+             <form action="https://docs.google.com/forms/d/e/1FAIpQLSer_PJGwgjKLhox9Wuq3zsnxLGBQipwDy_Roah-dFHp7k69WQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+               <div class="form-row">
+                 <div class="input col-md-4">
+                   <input type="text" placeholder="NAME" name="entry.1584903661" value="" class="form-control ss-q-short" id="entry_1584903661" dir="auto" aria-label="Name  " aria-required="true" required="" title="">
+                   <div class="error-message" id="47189717_errorMessage"></div>
+                 </div>
+                 <div class="input col-md-4">
+                  <input type="text" placeholder="PHONE" name="entry.392972047" value="" class="form-control ss-q-short" id="entry_392972047" dir="auto" aria-label="Phone  " title="">
+                 </div>
+                 <div class="input col-md-4">
+                  <input type="text" placeholder="EMAIL" name="entry.1941970870" value="" class="form-control ss-q-short" id="entry_1941970870" dir="auto" aria-label="Email  " aria-required="true" required="" title="">
+                  <div class="error-message" id="118810961_errorMessage"></div>
+                  </div>
+                </div>
 
-    </main>
+
+               <div class="form-row">
+                 <div class="select col-md-4">
+                   <select name="entry.1393237254" id="entry_1393237254" aria-label="Criminal Record?  ">
+                     <option selected value="">Do you have a criminal record?</option>
+                     <option value="Yes">Yes</option>
+                     <option value="No">No</option>
+                   </select>
+                 </div>
+                 <div class="select col-md-4">
+                   <select name="entry.1292478824" id="entry_1292478824" aria-label="Broken Lease?  ">
+                     <option selected value="">Do you have a broken lease?</option>
+                     <option value="Yes">Yes</option>
+                     <option value="No">No</option>
+                   </select>
+                 </div>
+                 <div class="select col-md-4">
+                   <select name="entry.597329859" id="entry_597329859" aria-label="Evicted?   ">
+                     <option selected value="">Have you been evicted?</option>
+                     <option value="Yes">Yes</option>
+                     <option value="No">No</option>
+                   </select>
+                 </div>
+               </div>
+
+              <div class="form-row">
+                <div class="textarea col-md-12">
+                  <textarea name="entry.626903374" placeholder="MESSAGE" rows="8" cols="0" class="ss-q-long" id="entry_626903374" dir="auto" aria-label="Message  " aria-required="true" required=""></textarea>
+                </div>
+              </div>
+              <button type="submit" name="submit" value="Submit" id="ss-submit" class="btn btn-custom">Contact Me</button>
+
+              <!-- Form Alert Box -->
+              <!-- Hidden iframe -->
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" ></iframe>
+
+              <!-- Script to show dialogue and reset form -->
+              <script>
+              // replace "ss-submit" with the ID of your submit button
+              document.getElementById("ss-submit").addEventListener("click", function(){
+                // replace the "It works!" with what you want to appear in the Javascript dialogue
+                alert("Thank You!")
+                // replace "ss-form" with the ID of your form
+                document.getElementById("ss-form").reset();
+              });
+              </script>
+          </form>
+        </div>
+       </section>
+      </main>
+
+      <footer>
+        <p>Lee Glass, a locator for Apartment quest | leeglass@satxapartmentstorent.com | San Antonio Apartments to Rent 830-469-9041</p>
+        <img src="img/apartment-quest-logo.png" alt="Apartment Quest Logo">
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
