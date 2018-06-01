@@ -9,7 +9,7 @@ header img{
   position: absolute;
   z-index: 1;
   height: 23vh;
-  padding-top: 25px;
+  margin-top: 25px;
   left: 41vw;
 }
 
@@ -194,6 +194,10 @@ header h1 {
   height: 100vh;
 }
 
+#problems .container {
+  border-bottom: 5px solid #222328;
+}
+
 #problems h1{
   padding-top: 16vh;
   width: 100%;
@@ -270,6 +274,8 @@ textarea{
   letter-spacing: 2px;
 }
 
+/*FOOTER*/
+
 footer {
   padding: 50px;
   text-align: center;
@@ -278,4 +284,80 @@ footer {
 }
 
 footer img {
+  height: 14vh
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 992px){
+  header img {
+    height: 12vh;
+    left: 38vw;
+    margin-top: 85px;
+  }
+
+  .navbar{
+    position: fixed !important;
+    top:0;
+    background-color: #222328;
+    padding: 20px !important;
+  }
+
+  .nav li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .home-png {
+    top: 23vh;
+    width: 55vw;
+    left: 22vw;
+  }
+
+  .home-content a {
+    font-size: 1rem;
+    top: 32vh;
+    left:37vw;
+  }
+
+  .home-content div{
+    top: 37vh;
+    left: 26vw;
+  }
+
+  .home-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .home-content h2 {
+    font-size: 2rem;
+  }
+
+  .carousel{
+    height: 50vh;
+  }
+
+  #about img {
+    margin-left: 70px;
+  }
+
+  .money {
+    margin-top: 38px;
+    margin-bottom: 57px;
+  }
+
+  .moving{
+    margin-bottom: 40px;
+  }
+
+  #about, #problems {
+    height: 100%
+  }
+
+  .form-row{
+    width:105%;
+  }
+
+  .btn-custom{
+    margin-left: 37%;
+  }
 }
