@@ -283,8 +283,85 @@ footer {
   color: #ffffff;
 }
 
+footer p{
+  font-weight: lighter;
+}
+
 footer img {
   height: 14vh
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    position: relative !important;
+    top:0;
+  }
+  header {
+    background-color: #222328;
+  }
+  header img {
+    position: relative;
+    left:25vw;
+    height: 18vh;
+  }
+  .nav li {
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: 15px;
+  }
+  .nav li a {
+    font-size: 12px;
+  }
+  .home-png{
+    top:9vh;
+    left:12vw;
+    width: 75vw;
+  }
+  .carousel{
+    height: 25vh;
+  }
+  #home {
+    height: 60vh;
+  }
+  .home-content a {
+    top: 30vh;
+    left: 31vw;
+  }
+  .home-content div{
+    top: 38vh;
+    left: 13vw;
+    color: #000000;
+  }
+  .home-content h2{
+    font-size: 2rem;
+  }
+  #about {
+    height: 100%;
+  }
+  #about h1{
+    padding-top: 40px;
+  }
+  .moving{
+    margin-top: 50px;
+  }
+  #problems {
+    height: 100%;
+  }
+  #problems h1{
+    padding-top: 5vh;
+  }
+  #contact{
+    padding-top: 5vh;
+  }
+  .form-row{
+    width: 100%;
+  }
+
+  .btn-custom{
+    margin-left: 22%;
+  }
 }
 
 /*TABLET*/
